@@ -1,0 +1,38 @@
+15:13:25,704 [32mINFO [m [f.console] ,----------------------------------------------------------------------------------------------------.
+|       ,---,.  .--.--.     ,----..                                     ,--,           2.10-SNAPSHOT |
+|     ,'  .' | /  /    '.  /   /   \                                  ,--.'|                         |
+|   ,---.'   ||  :  /`. / |   :     :  __  ,-.                   .---.|  | :               __  ,-.   |
+|   |   |   .';  |  |--`  .   |  ;. /,' ,'/ /|                  /. ./|:  : '             ,' ,'/ /|   |
+|   :   :  :  |  :  ;_    .   ; /--` '  | |' | ,--.--.       .-'-. ' ||  ' |      ,---.  '  | |' |   |
+|   :   |  |-, \  \    `. ;   | ;    |  |   ,'/       \     /___/ \: |'  | |     /     \ |  |   ,'   |
+|   |   :  ;/|  `----.   \|   : |    '  :  / .--.  .-. | .-'.. '   ' .|  | :    /    /  |'  :  /     |
+|   |   |   .'  __ \  \  |.   | '___ |  | '   \__\/: . ./___/ \:     ''  : |__ .    ' / ||  | '      |
+|   '   :  '   /  /`--'  /'   ; : .'|;  : |   ," .--.; |.   \  ' .\   |  | '.'|'   ;   /|;  : |      |
+|   |   |  |  '--'.     / '   | '/  :|  , ;  /  /  ,.  | \   \   ' \ |;  :    ;'   |  / ||  , ;      |
+|   |   :  \    `--'---'  |   :    /  ---'  ;  :   .'   \ \   \  |--" |  ,   / |   :    | ---'       |
+|   |   | ,'               \   \ .'         |  ,     .-./  \   \ |     ---`-'   \   \  /             |
+|   `----'                  `---`            `--`---'       '---"                `----'              |
++----------------------------------------------------------------------------------------------------+
+|                                        You know, for Files!                                        |
+|                                     Made from France with Love                                     |
+|                           Source: https://github.com/dadoonet/fscrawler/                           |
+|                          Documentation: https://fscrawler.readthedocs.io/                          |
+`----------------------------------------------------------------------------------------------------'
+
+15:13:25,718 [32mINFO [m [f.p.e.c.f.c.BootstrapChecks] Memory [Free/Total=Percent]: HEAP [239.2mb/3.8gb=6.03%], RAM [1.8gb/15.4gb=12.02%], Swap [14.2gb/14.9gb=95.86%].
+15:13:25,984 [33mWARN [m [f.p.e.c.f.c.FsCrawlerCli] `url` is not set. Please define it. Falling back to default: [/tmp/es].
+15:13:25,991 [32mINFO [m [f.p.e.c.f.FsCrawlerImpl] Starting FS crawler
+15:13:25,992 [32mINFO [m [f.p.e.c.f.FsCrawlerImpl] FS crawler started in watch mode. It will run unless you stop it with CTRL+C.
+15:13:26,080 [33mWARN [m [f.p.e.c.f.c.ElasticsearchClient] We are not doing SSL verification. It's not recommended for production.
+15:13:26,657 [32mINFO [m [f.p.e.c.f.c.ElasticsearchClient] Elasticsearch Client connected to a node running version 8.11.1
+15:13:26,664 [33mWARN [m [f.p.e.c.f.c.ElasticsearchClient] We are not doing SSL verification. It's not recommended for production.
+15:13:26,743 [32mINFO [m [f.p.e.c.f.c.ElasticsearchClient] Elasticsearch Client connected to a node running version 8.11.1
+15:13:29,911 [32mINFO [m [f.p.e.c.f.FsParserAbstract] FS crawler started for [idx] for [/tmp/es] every [15m]
+15:13:29,987 [32mINFO [m [f.p.e.c.f.t.TikaInstance] OCR is enabled. This might slowdown the process.
+15:13:30,026 [33mWARN [m [o.g.j.s.w.WadlFeature] JAXBContext implementation could not be found. WADL feature is disabled.
+15:13:30,087 [33mWARN [m [o.g.j.i.i.Providers] A provider fr.pilato.elasticsearch.crawler.fs.rest.ServerStatusApi registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider fr.pilato.elasticsearch.crawler.fs.rest.ServerStatusApi will be ignored. 
+15:13:30,087 [33mWARN [m [o.g.j.i.i.Providers] A provider fr.pilato.elasticsearch.crawler.fs.rest.UploadApi registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider fr.pilato.elasticsearch.crawler.fs.rest.UploadApi will be ignored. 
+15:13:30,087 [33mWARN [m [o.g.j.i.i.Providers] A provider fr.pilato.elasticsearch.crawler.fs.rest.DocumentApi registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider fr.pilato.elasticsearch.crawler.fs.rest.DocumentApi will be ignored. 
+15:13:30,320 [32mINFO [m [f.p.e.c.f.r.RestServer] FS crawler Rest service started on [http://fscrawler:8080]
+15:13:31,205 [33mWARN [m [f.p.e.c.f.c.ElasticsearchClient] Error on server side. 503 -> Service Unavailable
+15:13:31,206 [33mWARN [m [f.p.e.c.f.FsParserAbstract] Error while crawling /tmp/es: HTTP 503 Service Unavailable
